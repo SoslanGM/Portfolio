@@ -78,7 +78,7 @@ overlay system allowing for convenient layout, for debugging purposes and others
 
 #### [Youtube playlist generation for a desktop media player](playlist.html)
    Using **Youtube Data v3** and Google's own authentication libraries, I search through a "Geek and Sundry" channel, find "Spellslingers with Day\[9\]" playlist and format it to fit my media player of choice.
-<p align="center"><img width="720" src="yt playlist mockup 0.png"></p>
+<p align="center"><img width="720" src="yt playlist mockup 2.png"></p>
 
 
 #### [A price of MtG tribe's card collection](web_scraping.html)
