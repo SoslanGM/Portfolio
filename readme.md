@@ -73,7 +73,7 @@ overlay system allowing for convenient layout, for debugging purposes and others
    
 #### [Business analytics: Lending Club open dataset, 2007-2011](analytics.html)
    Armed with **Pandas**, **Numpy**, **Pyplot** and **Seaborn**, I look into the activity of a lending company, to see if I could reason a little bit about how the business is across America and in individual states, and whether an imaginary reallocation of offices is would make business sense, constructing a **PostgreSQL** database in the process with the help of **SQLAlchemy** library.
-<p align="center"><img width="720" src="analytics_final.jpg"></p>
+<p align="center"><img width="720" src="Analytics final.jpg"></p>
 
 
 #### [Youtube playlist generation for a desktop media player](playlist.html)
