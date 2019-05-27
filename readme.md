@@ -8,29 +8,6 @@
 - Sep 2015 - Jan 2016, **Gameboloid**, "Woodland Quest", match-3 game.
 - Mar 2016 - Dec 2018, **Russian Post**, operator
 
-## Short description of last few years:
-   After leaving university early due to complications in family, I leveraged my general knowledge and skills
-at using computers to get various data entry and simple helpdesk jobs, lacking confidence to pursue
-programming career at that point in time.
-
-   Aug '15, while I was looking for job opportunities closer to my vocation, a university friend told me
-he had a junior spot in a team he led at the time, and offered it to me, on a condition of completing a project
-in the Unity game engine.
-   After a couple weeks of training I have written a 3D variant of the classic "Snake" game, and it was enough.
-   During my time there I've integrated an ad-serving library Appodeal, processing some events it couldn't
-at the time; added some of UI features like text lines popping upon combos and timers; some of the
-character animations.
-   Shortly before the NY of '16 we started hearing rumours of financial trouble brewing in the company that
-owned the team, and we were soon disbanded.
- 
-   Near the end of '18, having built a little warchest to sustain myself while I concentrated on self-education,
-I left Post Office to try and make a sharp career turn into programming, again. I've spent a few months learning
-Python and SQL on [DataCamp](https://www.datacamp.com/profile/soslangm) and have completed a few personal
-projects, listed below.
-   Next, aiming to build a more diverse and interesting portfolio, I spent another couple months honing my
-skills in C and Vulkan Graphics API, having been programming in both on and off for a few years, vying to,
-this time, get further into the woods than lands of humble triangles, and to a level beyond mere tutorials.
-
 
 ## Portfolio entries
 
