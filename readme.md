@@ -50,19 +50,19 @@ overlay system allowing for convenient layout, for debugging purposes and others
    
 #### [Business analytics: Lending Club open dataset, 2007-2011](analytics.html)
    Armed with **Pandas**, **Numpy**, **Pyplot** and **Seaborn**, I look into the activity of a lending company, to see if I could reason a little bit about how the business is across America and in individual states, and whether an imaginary reallocation of offices is would make business sense, constructing a **PostgreSQL** database in the process with the help of **SQLAlchemy** library.
-<p align="center"><img width="720" src="Analytics final.jpg"></p>
+<p align="center"><img width="720" src="analytics.png"></p>
 
 
 #### [Youtube playlist generation for a desktop media player](playlist.html)
    Using **Youtube Data v3** and Google's own authentication libraries, I search through a "Geek and Sundry" channel, find "Spellslingers with Day\[9\]" playlist and format it to fit my media player of choice.
-<p align="center"><img width="720" src="yt playlist mockup 2.png"></p>
+<p align="center"><img width="720" src="youtube.png"></p>
 
 
 #### [A price of MtG tribe's card collection](web_scraping.html)
    Gently scraping two databases of Magic the Gathering cards with **Requests** and **Scrapy**, I first find out all the names of cards from a certain collection, and then how much a full set of them, four copies each, can cost.
-<p align="center"><img width="720" src="web scraping mockup 0.png"></p>
+<p align="center"><img width="720" src="scraping.png"></p>
 
 
 #### [Downloading a podcast from Apple Music RSS feed](podcasts.html)
    In goes an .rss URL, out goes a folder full of .mp3 files. Simple as that. Starring: **BeautifulSoup**.
-<p align="center"><img width="720" src="podcast-dl mockup 0.png"></p>
+<p align="center"><img width="720" src="podcast.png"></p>
