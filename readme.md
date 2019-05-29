@@ -63,6 +63,6 @@ overlay system allowing for convenient layout, for debugging purposes and others
 <p align="center"><img width="720" src="scraping.png"></p>
 
 
-#### [Downloading a podcast from Apple Music RSS feed](podcasts.html)
+#### [Downloading a podcast from Apple Music RSS feed](rss.html)
    In goes an .rss URL, out goes a folder full of .mp3 files. Simple as that. Starring: **BeautifulSoup**.
 <p align="center"><img width="720" src="podcast.png"></p>
