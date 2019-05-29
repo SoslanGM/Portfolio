@@ -20,7 +20,7 @@ and accessible only in the "Viewer" project.
 
    The entries make use of the excellent single-header [STB libraries](https://github.com/nothings/stb) written by [Sean Barrett](https://github.com/nothings/) for rendering of text, reading and writing of images.
 
-<p><br/></p>
+
 #### [Asynchronious Vulkan-based thumbnail-generating image viewer.](https://github.com/SoslanGM/Vulkan_AsyncFolderImageViewer)
    This application obtains a list of images of most commonly used formats(.jpg, .bmp and .png) in a folder specified
 in source.cpp, using Win32 functions. It then, using multiple threads, loads and renders the images as smaller-sized
@@ -68,12 +68,15 @@ overlay system allowing for convenient layout, for debugging purposes and others
 ### 2005-2009, **Moscow IT Lyceum 1533**, programming.
 - Basics of programming, C++, C#, ASM
 - Basics of system architecture
+
 ### 2009-2011, **Bauman's Moscow State Technical University**, programming.
 - Basics of programming, Delphi
 - Basics of programming, C
+
 ### [DataCamp](https://www.datacamp.com/profile/soslangm)
 - Python: Pandas, web scraping
 - SQL: Basics of PostgreSQL and SQLAlchemy
+
 
 ## Last places of employment:
 ### Sep 2015 - Jan 2016, **Gameboloid**, "Woodland Quest", match-3 game.
@@ -81,6 +84,7 @@ overlay system allowing for convenient layout, for debugging purposes and others
 - Feature support and bug fixes
 - UI elements
 - Additional animations for characters
+
 ### Mar 2016 - Dec 2018, **Russian Post**, postal operator
 - Customer service: preparing customer packages for the transportation
 - Data entry: entering of corresponding package data into database
