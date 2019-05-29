@@ -63,28 +63,28 @@ overlay system allowing for convenient layout, for debugging purposes and others
 
 
 
-# Experience
-## Education:
-### 2005-2009, **Moscow IT Lyceum 1533**, programming.
+## Experience
+### Education:
+#### 2005-2009, **Moscow IT Lyceum 1533**, programming.
 - Basics of programming, C++, C#, ASM
 - Basics of system architecture
 
-### 2009-2011, **Bauman's Moscow State Technical University**, programming.
+#### 2009-2011, **Bauman's Moscow State Technical University**, programming.
 - Basics of programming, Delphi
 - Basics of programming, C
 
-### [DataCamp](https://www.datacamp.com/profile/soslangm)
+#### [DataCamp](https://www.datacamp.com/profile/soslangm)
 - Python: Pandas, web scraping
 - SQL: Basics of PostgreSQL and SQLAlchemy
 
 
-## Last places of employment:
-### Sep 2015 - Jan 2016, **Gameboloid**, "Woodland Quest", match-3 game.
+### Last places of employment:
+#### Sep 2015 - Jan 2016, **Gameboloid**, "Woodland Quest", match-3 game.
 - Integration of Appodeal ad-serving library
 - Feature support and bug fixes
 - UI elements
 - Additional animations for characters
 
-### Mar 2016 - Dec 2018, **Russian Post**, postal operator
+#### Mar 2016 - Dec 2018, **Russian Post**, postal operator
 - Customer service: preparing customer packages for the transportation
 - Data entry: entering of corresponding package data into database
