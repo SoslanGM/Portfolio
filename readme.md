@@ -20,7 +20,7 @@ and accessible only in the "Viewer" project.
 
    The entries make use of the excellent single-header [STB libraries](https://github.com/nothings/stb) written by [Sean Barrett](https://github.com/nothings/) for rendering of text, reading and writing of images.
 
-<br/>
+<p><br/></p>
 #### [Asynchronious Vulkan-based thumbnail-generating image viewer.](https://github.com/SoslanGM/Vulkan_AsyncFolderImageViewer)
    This application obtains a list of images of most commonly used formats(.jpg, .bmp and .png) in a folder specified
 in source.cpp, using Win32 functions. It then, using multiple threads, loads and renders the images as smaller-sized
@@ -30,12 +30,12 @@ with maximum size of up to 25 megabytes.
 <p align="center"><a href="http://www.youtube.com/watch?v=EagvXuvbbQw"><img width="720" height="405" src="viewer.gif"></a></p>
 
 
-<br/>
+<p><br/></p>
 #### ["A Flappy Fish".](https://github.com/SoslanGM/Vulkan_FlappyFish)
    This is a simple recreation of the popular "Flappy Bird" game, with the assets from **"Super Mario Bros."**(© Nintendo)
 <p align="center"><a href="http://www.youtube.com/watch?v=fW6_d3bbo3c"><img width="720" height="405" src="flappy.gif"></a></p>
 
-<br/>
+<p><br/></p>
 #### ["The Spinning Triangle."](https://github.com/SoslanGM/Vulkan_ASpinningTriangle)
    This is the ["Black Triangle"](http://rampantgames.com/blog/?p=7745) of my recent Vulkan trip, and it took me a bit
 to remember how to even output a triangle. I decided to make this the last one, and cooked it to perfection, making it
@@ -44,27 +44,26 @@ scheme of a humble, yet effective, memory pool into which all further geometry w
 overlay system allowing for convenient layout, for debugging purposes and others.
 <p align="center"><a href="http://www.youtube.com/watch?v=o-HaOMZ5nZ8"><img width="720" height="405" src="triangle.gif"></a></p>
 
-<br/>
-<br/>
+<p><br/><br/></p>
 ### Python projects
    These entries are written in Jupyter Notebook.
    
-<br/>
+<p><br/></p>
 #### [Business analytics: Lending Club open dataset, 2007-2011](analytics.html)
    Armed with **Pandas**, **Numpy**, **Pyplot** and **Seaborn**, I look into the activity of a lending company, to see if I could reason a little bit about how the business is across America and in individual states, and whether an imaginary reallocation of offices is would make business sense, constructing a **PostgreSQL** database in the process with the help of **SQLAlchemy** library.
 <p align="center"><img width="720" src="analytics_scr.png"></p>
 
-<br/>
+<p><br/></p>
 #### [Youtube playlist generation for a desktop media player](playlist.html)
    Using **Youtube Data v3** and Google's own authentication libraries, I search through the "Geek and Sundry" channel, find Day\[9\]'s "Spellslingers"  series' playlist, extract and format it to fit my media player of choice.
 <p align="center"><img width="720" src="youtube_scr.png"></p>
 
-<br/>
+<p><br/></p>
 #### [A price of MtG tribe's card collection](web_scraping.html)
    Gently scraping two databases of Magic the Gathering cards with **Requests** and **Scrapy**, I first find out all the names of cards from a certain collection, and then how much a full set of them, four copies each, can cost.
 <p align="center"><img width="720" src="scraping_scr.png"></p>
 
-<br/>
+<p><br/></p>
 #### [Downloading a podcast from Apple Music RSS feed](rss.html)
    In goes an .rss URL, out goes a folder full of .mp3 files. Simple as that. Starring: **BeautifulSoup**.
 <p align="center"><img width="720" src="rss_scr.png"></p>
