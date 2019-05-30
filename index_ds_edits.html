@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Soslan Guchmazov - Junior Programmer | Portfolio</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Soslan Guchmazov - Junior Programmer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Various little projects in Vulkan &amp; C, and Python &amp; assorted libraries." />
+<meta property="og:description" content="Various little projects in Vulkan &amp; C, and Python &amp; assorted libraries." />
+<link rel="canonical" href="https://soslangm.github.io/Portfolio/" />
+<meta property="og:url" content="https://soslangm.github.io/Portfolio/" />
+<meta property="og:site_name" content="Portfolio" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Soslan Guchmazov - Junior Programmer","url":"https://soslangm.github.io/Portfolio/","name":"Portfolio","description":"Various little projects in Vulkan &amp; C, and Python &amp; assorted libraries.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <!-- <link rel="stylesheet" href="assets/css/style.css?v=bd5aa909e2b8c2cc196e2dd060780dbffeb4102c"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+       <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+       <!-- #profpic {height:3rem; position:relative;top:1rem} -->
+       <!-- section.main-content h4 {} -->
+       body {
+        font-family: 'Open Sans';font-size: 16px;
+       }
+    </style>
+  </head>
+  <body style="font-family:Open+Sans">
+    <section class="page-header">
+        <img src="photo.png" id="profpic"/>
+        <h1>Hire Soslan Guchmazov <i class="far fa-thumbs-up"></i></h1>
+        <ul style="width:30rem; padding-bottom: 1rem; text-align:left; margin:auto"> 
+          <li>junior C and Python programmer</li>
+          <li>based in Moscow, remote-friendly to any timezone</li>
+          <li>part-time, full-time, temporary</li>
+        </ul>
+        <h2>Open to anything! I bring experience in &hellip; </h2>
+        <ul style="width:30rem; padding-bottom: 2rem; text-align:left; margin:auto"> 
+          <li>Vulkan visualization and games</li>
+          <li>Python / Numpy / Jupyter / Seaborn analytics</li>
+          <li>Python scraping and data integrations</li>
+          <li>general C and Python application development</li>
+        </ul>
+      
+        <a class="btn" style="width:15rem; background-color:rgba(0,255,0,0.25); font-size:1.5rem;" href="mailto:soslangm@gmail.com" >
+        <i class="far fa-paper-plane"></i> Contact Me</a>
+        
+        <a style="width:15rem; font-size:1.5rem; background-color:rgba(0,0,0,0.5)" href="https://github.com/SoslanGM" class="btn">
+        <i class="fab fa-github"></i> See GitHub</a>
+      
+      
+    </section>
+
+<h3 id="main-start" style="border-bottom: solid 1px gray; background-color:black; text-align:center; color:white; margin-top:0rem; padding:1rem" id="c--vulkan-projects">Portfolio <br/> <a href="#main-start" style="color:white"><i class="fas fa-chevron-down"></i></a></h3>
+    <section class="main-content">
+<h2 id="asynchronious-vulkan-based-thumbnail-generating-image-viewer"><a href="https://github.com/SoslanGM/Vulkan_AsyncFolderImageViewer"><i class="fas fa-images"></i> Asynchronous image viewer with Thumbnails (Vulkan)</a></h2>
+<p>This application obtains a list of images of most commonly used formats(.jpg, .bmp and .png) in a folder specified
+in source.cpp, using Win32 functions. It then, using multiple threads, loads and renders the images as smaller-sized
+thumbnails, allowing you to scroll through your folder.
+   It can handle folders worth of several hundred images(potentially up to 4096 images, utilizing special extensions),
+with maximum size of up to 25 megabytes.</p>
+<p align="center"><a href="http://www.youtube.com/watch?v=EagvXuvbbQw"><img width="720" height="405" src="viewer.gif" /></a></p>
+
+<h2 id="a-flappy-fish"><a href="https://github.com/SoslanGM/Vulkan_FlappyFish"><i class="fas fa-fish"></i> "A Flappy Fish”</a></h2>
+<p>This is a simple recreation of the popular “Flappy Bird” game, with the assets from <strong>“Super Mario Bros.”</strong>(© Nintendo)</p>
+<p align="center"><a href="http://www.youtube.com/watch?v=fW6_d3bbo3c"><img width="720" height="405" src="flappy.gif" /></a></p>
+
+<h2 id="the-spinning-triangle"><a href="https://github.com/SoslanGM/Vulkan_ASpinningTriangle"><i class="fas fa-caret-square-up"></i> “The Spinning Triangle”</a></h2>
+<p>This is the <a href="http://rampantgames.com/blog/?p=7745">“Black Triangle”</a> of my recent Vulkan trip, and it took me a bit
+to remember how to even output a triangle. I decided to make this the last one, and cooked it to perfection, making it
+the basis of the framework in which I wrote the following two entries; trying out for the first time a memory management
+scheme of a humble, yet effective, memory pool into which all further geometry writes are written; and convenient text
+overlay system allowing for convenient layout, for debugging purposes and others.</p>
+<p align="center"><a href="http://www.youtube.com/watch?v=o-HaOMZ5nZ8"><img width="720" height="405" src="triangle.gif" /></a></p>
+
+<h2 id="business-analytics-lending-club-open-dataset-2007-2011"><a href="/Portfolio/analytics.html"><i class="fas fa-chart-pie"></i> Business analytics: Lending Club open dataset, 2007-2011</a></h2>
+<p>Armed with <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Pyplot</strong> and <strong>Seaborn</strong>, I look into the activity of a lending company, to see if I could reason a little bit about how the business is across America and in individual states, and whether an imaginary reallocation of offices is would make business sense, constructing a <strong>PostgreSQL</strong> database in the process with the help of <strong>SQLAlchemy</strong> library.</p>
+<p align="center"><img width="720" src="analytics_scr.png" /></p>
+
+<h2 id="youtube-playlist-generation-for-a-desktop-media-player"><a href="/Portfolio/playlist.html"><i class="fab fa-youtube-square"></i> Youtube playlist generation for a desktop media player</a></h2>
+<p>Using <strong>Youtube Data v3</strong> and Google’s own authentication libraries, I search through the “Geek and Sundry” channel, find Day[9]’s “Spellslingers”  series’ playlist, extract and format it to fit my media player of choice.</p>
+<p align="center"><img width="720" src="youtube_scr.png" /></p>
+
+<h2 id="a-price-of-mtg-tribes-card-collection"><a href="/Portfolio/web_scraping.html"><i class="fas fa-money-bill-wave"></i> A price of MtG tribe’s card collection</a></h2>
+<p>Gently scraping two databases of Magic the Gathering cards with <strong>Requests</strong> and <strong>Scrapy</strong>, I first find out all the names of cards from a certain collection, and then how much a full set of them, four copies each, can cost.</p>
+<p align="center"><img width="720" src="scraping_scr.png" /></p>
+
+<h2 id="downloading-a-podcast-from-apple-music-rss-feed"><a href="/Portfolio/rss.html"> <i class="fab fa-itunes"></i>  Downloading a podcast from Apple Music RSS feed</a></h2>
+<p>In goes an .rss URL, out goes a folder full of .mp3 files. Simple as that. Starring: <strong>BeautifulSoup</strong>.</p>
+<p align="center"><img width="720" src="rss_scr.png" /></p>
+
+<h2 id="experience"> <i class="fas fa-university"></i> Education and Experience </h2>
+<ul>
+  <li>Bauman’s Moscow State Technical University ('09-'11)</li>
+  <li>Gameboloid (2015-2016)
+     <ul>
+       <li>Worked on Woodland Quest, a Match-3 Game</li>
+       <li>Integrated ad serving libraries</li>
+       <li>Feature support and bug fixes</li>
+       <li>Implemented UI elements</li>
+       <li>Supplemental animations</li>
+     </ul>
+  </li>
+  <li>Russian Post (2016-2019)</li>
+     <ul>
+        <li>Side job while working on DataCamp and other self-training</li>
+        <li>Data entry / database operations for package tracking </li>
+        <li>Customer Service</li> 
+     </ul>
+  </li>
+  <li><a href="https://www.datacamp.com/profile/soslangm">DataCamp</a> courses (click for my completed courses)
+     <ul>
+       <li>Pandas</li>
+       <li>PostgreSQL</li>
+       <li>SQLAlchemy</li>
+       <li>Web Scraping</li>
+     </ul>
+  </li>
+</ul>
+
+<h4 style="background-color:rgba(0,0,0,0.1); color:black; text-align:center; padding-top:2rem; padding-bottom:2rem;">If you got this far, why not&hellip;
+<br/><br/>
+    <a class="btn" style="width:15rem; margin:auto; background-color:#159957; dcolor:black; text-align:center;font-size:1.5rem;" href="mailto:soslangm@gmail.com" >
+        <i class="far fa-paper-plane"></i> Contact Me</a>
+</h4>
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/SoslanGM/Portfolio">Portfolio</a> is maintained by <a href="https://github.com/SoslanGM">SoslanGM</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
