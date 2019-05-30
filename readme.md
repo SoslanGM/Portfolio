@@ -1,3 +1,9 @@
+---
+layout: default
+title: Soslan Guchmazov
+description: C + Python generalist based in Moscow, Russia
+---
+
 # Hire me!
 ## I'm looking for full-time or contract remote work in any of the following areas:
 - United States of America
