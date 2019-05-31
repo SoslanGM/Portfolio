@@ -60,11 +60,20 @@
 <h3 id="main-start" style="border-bottom: solid 1px gray; background-color:black; text-align:center; color:white; margin-top:0rem; padding:1rem" id="c--vulkan-projects">Portfolio <br/> <a href="#main-start" style="color:white"><i class="fas fa-chevron-down"></i></a></h3>
     <section class="main-content">
 <h2 id="asynchronious-vulkan-based-thumbnail-generating-image-viewer"><a href="https://github.com/SoslanGM/Vulkan_AsyncFolderImageViewer"><i class="fas fa-images"></i> Asynchronous image viewer with Thumbnails (Vulkan)</a></h2>
-<p>This application obtains a list of images of most commonly used formats(.jpg, .bmp and .png) in a folder specified
-in source.cpp, using Win32 functions. It then, using multiple threads, loads and renders the images as smaller-sized
-thumbnails, allowing you to scroll through your folder.
-   It can handle folders worth of several hundred images(potentially up to 4096 images, utilizing special extensions),
-with maximum size of up to 25 megapixels.</p>
+<p>A quick and reliable way to preview large folders of images using GPU.<br/>Large loading times were circumvented by making the viewer asynchronous via threads.</p>
+<br/><br/>
+<p>Tools</p>
+<ul>
+   <li>Vulkan</li>
+   <li>Win32 threads</li>
+   <li>STB libraries(image, image_write, truetype)</li>
+</ul>
+<br/><br/>
+<p>Features</p>
+<ul>
+   <li>Handles folders up to 4096 images</li>
+   <li>Handles images up to 25 megapixels</li>
+</ul>
 <p align="center">
     <video width="720" height="405" controls>
         <source src="viewer.mp4" type="video/mp4">
