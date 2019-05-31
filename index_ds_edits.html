@@ -63,7 +63,7 @@
 <p>A quick and reliable way to preview large folders of images using GPU.<br/>Large loading times were circumvented by making the viewer asynchronous via threads.</p>
 <p>Tools</p>
 <ul>
-   <li>Vulkan</li>
+   <li>C, Vulkan</li>
    <li>Win32 threads</li>
    <li>STB libraries(image, image_write, truetype)</li>
 </ul>
@@ -71,6 +71,7 @@
 <ul>
    <li>Handles folders up to 4096 images</li>
    <li>Handles images up to 25 megapixels</li>
+   <li>Screenshot system(used to create footage of every Vulkan project)</li>
 </ul>
 <p align="center">
     <video width="720" height="405" controls>
@@ -79,11 +80,32 @@
 </p>
 
 <h2 id="business-analytics-lending-club-open-dataset-2007-2011"><a href="/Portfolio/analytics.html"><i class="fas fa-chart-pie"></i> Business analytics: Lending Club open dataset, 2007-2011</a></h2>
-<p>Armed with <strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Pyplot</strong> and <strong>Seaborn</strong>, I look into the activity of a lending company, to see if I could reason a little bit about how the business is across America and in individual states, and whether an imaginary reallocation of offices is would make business sense, constructing a <strong>PostgreSQL</strong> database in the process with the help of <strong>SQLAlchemy</strong> library.</p>
+<p>Simple insights into workings of a lending business in America.</p>
+<p>Data</p>
+<ul>
+   <li>Lending Club open dataset, 2007-2011</li>
+</ul>
+<p>Tools</p>
+<ul>
+   <li>Python</li>
+   <li>Data-manipulation packages(Pandas, Numpy)</li>
+   <li>Plotting libraries(PyPlot, Seaborn)</li>
+   <li>STB libraries(image, image_write, truetype)</li>
+</ul>
 <p align="center"><img width="720" src="analytics_icon.png" /></p>
 
 <h2 id="a-flappy-fish"><a href="https://github.com/SoslanGM/Vulkan_FlappyFish"><i class="fas fa-fish"></i> "A Flappy Fish” (Vulkan)</a></h2>
-<p>This is a simple recreation of the popular “Flappy Bird” game, with the assets from <strong>“Super Mario Bros.”</strong>(© Nintendo)</p>
+<p>A test of my budding Vulkan framework with some simple gameplay.</p>
+<p>Tools</p>
+<ul>
+   <li>C, Vulkan</li>
+   <li>STB libraries(image, image_write, truetype)</li>
+</ul>
+<p>Features</p>
+<ul>
+   <li>State integration</li>
+   <li>Collision detection</li>
+</ul>
 <p align="center">
     <video width="720" height="405" controls>
         <source src="flappy.mp4" type="video/mp4">
@@ -91,16 +113,38 @@
 </p>
 
 <h2 id="youtube-playlist-generation-for-a-desktop-media-player"><a href="/Portfolio/playlist.html"><i class="fab fa-youtube-square"></i> Youtube playlist generation for a desktop media player</a></h2>
-<p>Using <strong>Youtube Data v3</strong> and Google’s own authentication libraries, as well as a bit of <strong>regex</strong>, <strong>json</strong> and <strong>isodate</strong>
-I search through the “Geek and Sundry” channel, find Day[9]’s “Spellslingers”  series’ playlist, extract and format it to fit my media player of choice.</p>
+<p>A convenient way to format Youtube playlists for a media player of choice.</p>
+<p>Tools</p>
+<ul>
+   <li>Python</li>
+   <li>Youtube Data API v3</li>
+   <li>Google authentication libraries</li>
+   <li>Regex, json, isodate</li>
+</ul>
+<p>Results</p>
+<ul>
+   <li>A "Spellslingers with Day\[9\]" playlist"</li>
+</ul>
 <p align="center"><img width="720" src="youtube_icons.png" /></p>
         
 <h2 id="the-spinning-triangle"><a href="https://github.com/SoslanGM/Vulkan_ASpinningTriangle"><i class="fas fa-caret-square-up"></i> Basic Vulkan Pipeline Demo</a></h2>
-<p>This is the <a href="http://rampantgames.com/blog/?p=7745">“Black Triangle”</a> of my recent Vulkan trip, and it took me a bit
-to remember how to even output a triangle. I decided to make this the last one, and cooked it to perfection, making it
-the basis of the framework in which I wrote the following two entries; trying out for the first time a memory management
-scheme of a humble, yet effective, memory pool into which all further geometry writes are written; matrix and vector math for
-affine transforms of geometry; and text overlay system allowing for convenient layout, for debugging purposes and others.</p>
+<p>
+    The <a href="http://rampantgames.com/blog/?p=7745">“Black Triangle”</a>.<br/>
+    Beginnings of a framework to tame the verbosity of Vulkan.
+</p>
+<p>Tools</p>
+<ul>
+   <li>C, Vulkan</li>
+   <li>Metaprogramming(for generation of Vulkan structures)</li>
+   <li>STB libraries(image, image_write, truetype)</li>
+</ul>
+<p>Features(most of these supplement every Vulkan project)</p>
+<ul>
+   <li>Dynamic Vulkan function loading</li>
+   <li>Memory pools for geometry memory management</li>
+   <li>Matrix math for geometry manipulation</li>
+   <li>Text overlay system</li>
+</ul>
 <p align="center">
     <video width="720" height="405" controls>
         <source src="triangle.mp4" type="video/mp4">
@@ -108,12 +152,31 @@ affine transforms of geometry; and text overlay system allowing for convenient l
 </p>
 
 <h2 id="a-price-of-mtg-tribes-card-collection"><a href="/Portfolio/web_scraping.html"><i class="fas fa-money-bill-wave"></i> A price of MtG tribe’s card collection</a></h2>
-<p>Gently scraping two databases of Magic the Gathering cards with <strong>Requests</strong> and <strong>Scrapy</strong>, I first find out all the names of cards from a certain collection, and then how much a full set of them, four copies each, can cost.</p>
+<p>How much does the "Sliver" tribe from "Magic the Gathering" cost?</p>
+<p>Tools</p>
+<ul>
+   <li>Requests</li>
+   <li>Scrapy selectors</li>
+</ul>
+<p>Results</p>
+<ul>
+   <li>A surprising amount!</li>
+   <li>Bonus: saved images of the cards(you might've noticed them in Viewer video)</li>
+</ul>
 <p align="center"><img width="720" src="scraping_icon.png" /></p>
 
 <h2 id="downloading-a-podcast-from-apple-music-rss-feed"><a href="/Portfolio/rss.html"> <i class="fab fa-itunes"></i> Apple iTunes Subscription RSS Feed Podcast Downloader</a></h2>
-<p>In goes an .rss URL, out goes a folder full of .mp3 files. Simple as that.
-Starring: <strong>Requests</strong>, <strong>BeautifulSoup</strong>, <strong>ThreadPool</strong>.</p>
+<p>A tool to download podcasts from iTunes feed files, sped up by parallel downloads</p>
+<p>Tools</p>
+<ul>
+   <li>Requests</li>
+   <li>Beautiful Soup</li>
+   <li>ThreadPool</li>
+</ul>
+<p>Results</p>
+<ul>
+   <li>A folder full of mp3s.</li>
+</ul>
 <p align="center"><img width="720" src="rss_icon.png" /></p>
 
 <h2 id="experience"> <i class="fas fa-university"></i> Education and Experience </h2>
